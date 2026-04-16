@@ -1,68 +1,31 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=1024, initial-scale=0.3">
-    <title>My Courses</title>
-    <link rel="stylesheet" href="add-course.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Add Course</title>
 </head>
 <body>
-
     <header>
-        <div style="font-size: 22px; font-weight: bold;">Course Organizer</div>
+        <div class="logo">Course<span>Organizer</span></div>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="courses.html">My Courses</a>
-            <a href="add-course.html">Add Course</a>
-            <a href="about.html">About Us</a>
+            <a href="index.html">Home</a> 
+            <a href="courses.html">Schedule</a>
         </nav>
     </header>
 
     <div class="container">
-        <h2>Courses Schedule</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Course Name</th>
-                    <th>Duration</th>
-                    <th>Instructor</th>
-                    <th>Status</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>HTML Fundamentals</td>
-                    <td>3 Hours</td>
-                    <td>Eng. Mohamed Ali</td>
-                    <td><span class="badge">Available</span></td>
-                </tr>
-                <tr>
-                    <td>CSS Web Styling</td>
-                    <td>5 Hours</td>
-                    <td>Eng. Ibrahim Saad</td>
-                    <td><span class="badge">Available</span></td>
-                </tr>
-                <tr>
-                    <td>Ai</td>
-                    <td>5 Hours</td>
-                    <td>Eng. Abdelwhab mohammed</td>
-                    <td><span class="badge">Available</span></td>
-                </tr>
-                <tr>
-                    <td>Date structure/td>
-                    <td>5 Hours</td>
-                    <td>Eng.  slwaa</td>
-                    <td><span class="badge">Available</span></td>
-                </tr>
-                <tr>
-                    <td>Pl-1</td>
-                    <td>5 Hours</td>
-                    <td>Eng. mohammed Saad</td>
-                    <td><span class="badge">Available</span></td>
-                </tr>
-            </tbody>
-        </table>
+        <h2>Add Course Form</h2>
+        <div class="form-box">
+            <p class="form-note">(This form is for display only; fixed data is in the table)</p>
+            
+            <input type="text" placeholder="Course Name" class="form-input">
+            <input type="number" placeholder="Duration (Hours)" class="form-input">
+            
+            <br>
+            <button class="save-btn">Save Course</button>
+        </div>
     </div>
-
 </body>
 </html>
